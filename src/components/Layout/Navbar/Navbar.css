@@ -1,0 +1,10 @@
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}

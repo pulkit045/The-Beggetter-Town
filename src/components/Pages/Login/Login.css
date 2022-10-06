@@ -1,0 +1,45 @@
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  input.form-control {
+    border-radius: 25px;
+  }
+
+  .form-control-user {
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  img.login-img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.40625rem;
+    /* padding-left: 1.5rem; */
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
