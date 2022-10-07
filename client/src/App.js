@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       {/* <span>navbar</span> */}
-// git bug found 
       <Markup />
     </div>
   );
