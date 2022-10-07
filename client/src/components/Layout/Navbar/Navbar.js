@@ -3,6 +3,13 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   const [show, setShow] = useState(false);
+
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? '500' : 'normal',
+      textDecoration: isActive ? 'underline' : 'none',
+    }
+  }
   return (
     <>
       <nav className="navbar-expand-lg p-3">
@@ -24,32 +31,31 @@ const Navbar = () => {
             ></div> */}
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Explore">
+              <NavLink  style={navLinkStyles} exact activeClassName="navbar__link--active" className="nav-link" to="/Explore">
                 EXPLORE
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Events">
+              <NavLink style={navLinkStyles} activeClassName="navbar__link--active" className="nav-link" to="/Events">
                 EVENTS
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Ideas">
+              <NavLink style={navLinkStyles} activeClassName="navbar__link--active" className="nav-link" to="/Ideas">
                 IDEAS
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/ContactUs">
+              <NavLink style={navLinkStyles} activeClassName="navbar__link--active" className="nav-link" to="/ContactUs">
                 CONTACT US
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/AboutUs">
+              <NavLink style={navLinkStyles} activeClassName="navbar__link--active" className="nav-link" to="/AboutUs">
                 ABOUT US
               </NavLink>
             </li>
           </ul>
-          
         </div>
       </nav>
     </>
