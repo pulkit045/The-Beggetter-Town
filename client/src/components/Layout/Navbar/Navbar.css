@@ -7,4 +7,10 @@
     color: #000;
     font-weight: 600;
     font-size: 18px;
+    border-bottom: 3px solid transparent;
 }
+
+.navbar__link--active {
+    border-bottom: 3px solid #29b6f6;
+    transition: border-bottom .5s ease-in-out;
+  }
