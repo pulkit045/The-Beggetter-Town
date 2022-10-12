@@ -1,5 +1,5 @@
 import React from "react";
-import Signupimg from "../../../assets/Register.png";
+// import Signupimg from "../../../assets/Register.png";
 import { Link} from "react-router-dom";
 import '../Login/Login.css';
 const Signup = () => {

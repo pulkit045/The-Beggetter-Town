@@ -1,5 +1,5 @@
 import React from "react";
-import loginimg from "../../../assets/login.jpg";
+// import loginimg from "../../../assets/login.jpg";
 import { Link} from "react-router-dom";
 import './Login.css';
 const Login = () => {
