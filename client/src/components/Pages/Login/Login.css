@@ -11,7 +11,7 @@ input {
   }
 
   .form-control-user {
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 10px;
     font-size: 16px;
 }
@@ -37,9 +37,15 @@ input {
 
 .btn-block {
     display: block;
-    width: 100%;
+    margin: auto;
+    /* width: 20%; */
 }
 
 a {
     text-decoration: none;
+}
+
+.card-body .btn-user {
+  padding-left: 20px;
+  padding-right: 20px;
 }

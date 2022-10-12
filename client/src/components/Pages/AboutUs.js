@@ -1,14 +1,10 @@
 import React from "react";
-import Footer from "../Layout/Footer/Footer";
 import Header from "../Layout/Header/Header";
-import Navbar from "../Layout/Navbar/Navbar";
-import Carousel from "./Carousel";
 
 const AboutUs = () => {
   return (
     <>
       <Header />
-      <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-8 mt-5 mb-5">
@@ -31,8 +27,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Carousel />
-      <Footer />
     </>
   );
 };
